@@ -126,5 +126,6 @@ results/
 *.pt
 *.png
 images/
-*.csv
+# *.csv
 processed/
+# data/
