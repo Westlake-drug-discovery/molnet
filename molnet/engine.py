@@ -50,7 +50,7 @@ class Exp(ExpBase):
         from API.datasets.splitter import create_splitter
         splitter = create_splitter('scaffold')
         train_dataset, valid_dataset, test_dataset = splitter.split(dataset, frac_train=0.8, frac_valid=0.1, frac_test=0.1)
-        print("train:{} \tvalid:{} \ttest:{}".format(len(train_dataset)), len(valid_dataset), len(test_dataset))
+        print("train:{} \tvalid:{} \ttest:{}".format(len(train_dataset), len(valid_dataset), len(test_dataset)))
         
         from torch.utils.data import DataLoader
         from torch_geometric.data import Data

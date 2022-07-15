@@ -61,6 +61,12 @@ MolNet is an open source molecule property prediction toolbox based on PyTorch.
 
 </details>
 
+## Tutorial
+```python
+    cd /gaozhangyang/experiments/molnet/molnet
+    python train.py
+```
+
 ## Overview of Benchmark and Model Zoo
 
 <!-- Results and models are available in the [model zoo](docs/en/model_zoo.md). -->
