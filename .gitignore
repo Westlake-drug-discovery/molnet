@@ -127,5 +127,4 @@ results/
 *.png
 images/
 *.csv
-preprocessed/
-data/
+processed/
